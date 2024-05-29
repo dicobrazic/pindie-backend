@@ -10,11 +10,6 @@ function cors(req, res, next) {
     next();
 }
 
-const allowedCors = [
-    'https://practicum.yandex.ru',
-    'https://students-projects.ru',
-    'http://localhost:3000',
-    'http://localhost:3001'
-];
+const allowedCors = ["https://myfront.nomorepartiesco.ru"];
 
 module.exports = cors;
